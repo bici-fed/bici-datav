@@ -1,0 +1,23 @@
+{
+  "name": "@bici-datav/chart-diagram",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "jufeng <jufeng@bicitech.cn>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@bici-datav/core": "^1.0.0"
+  },
+  "scripts": {
+    "copy": "copyfiles  package.json ../../dist/chart-diagram/",
+    "build": "tsc && npm run copy"
+  },
+  "dependencies": {
+    "@bici-datav/editor": "^1.0.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "@bici-datav/sequence-diagram",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "jufeng <jufeng@bicitech.cn>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "peerDependencies": {
+    "@bici-datav/core": "^1.0.0"
+  },
+  "scripts": {
+    "copy": "copyfiles  package.json ../../dist/sequence-diagram/",
+    "build": "tsc && npm run copy"
+  },
+  "dependencies": {
+    "@bici-datav/editor": "^1.0.0"
+  }
+}

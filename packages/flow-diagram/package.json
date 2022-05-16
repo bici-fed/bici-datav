@@ -1,0 +1,23 @@
+{
+  "name": "@bici-datav/flow-diagram",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "jufeng <jufeng@bicitech.cn>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "peerDependencies": {
+    "@bici-datav/core": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "copy": "copyfiles  package.json ../../dist/flow-diagram/",
+    "build": "tsc && npm run copy"
+  },
+  "dependencies": {
+    "@bici-datav/editor": "^1.0.0"
+  }
+}

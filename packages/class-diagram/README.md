@@ -1,0 +1,1 @@
+### @bici-datav/class-diagram

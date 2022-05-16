@@ -1,0 +1,23 @@
+{
+  "name": "@bici-datav/core",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "jufeng <jufeng@bicitech.cn>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@bici-datav/editor": "^1.0.0",
+    "@bici-datav/store-utils": "^1.0.0",
+    "mitt": "^2.1.0",
+    "mqtt": "^4.3.7"
+  },
+  "scripts": {
+    "copy": "copyfiles  package.json ../../dist/core/",
+    "build": "tsc && npm run copy"
+  }
+}

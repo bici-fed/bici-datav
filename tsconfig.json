@@ -1,0 +1,31 @@
+
+
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "declaration": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "allowJs": true,
+    "lib": ["es2018", "dom"],
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports":true,
+    "paths": {
+      "@bici-datav/core": ["packages/core"],
+      "@bici-datav/core/*": ["packages/core/src/*"],
+      "@bici-datav/flow-diagram": ["packages/flow-diagram"],
+      "@bici-datav/activity-diagram": ["packages/activity-diagram"],
+      "@bici-datav/class-diagram": ["packages/class-diagram"],
+      "@bici-datav/sequence-diagram": ["packages/sequence-diagram"],
+      "@bici-datav/chart-diagram": ["packages/chart-diagram"],
+      "@bici-datav/layout": ["packages/layout"],
+      "@bici-datav/editor": ["packages/editor"]
+    }
+  },
+  "include": ["packages/**/*"],
+  "exclude": ["node_modules", "dist", "**/*.spec.ts"]
+}

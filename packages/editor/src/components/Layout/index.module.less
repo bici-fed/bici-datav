@@ -1,0 +1,112 @@
+.page {
+  display: flex;
+  // width: 100vw;
+  height: calc(100vh - 50px);
+  background: red;
+}
+
+.tool {
+  flex-shrink: 0;
+  width: 250px;
+  background-color: #f8f8f8;
+  border-right: 1px solid #d9d9d9;
+  overflow-y: auto;
+  position: relative;
+}
+
+.button {
+  padding: 10px 0;
+}
+
+.button a {
+  display: inline-block;
+  color: #333;
+  line-height: 1;
+  width: 100%;
+  text-align: center;
+  text-decoration: none !important;
+}
+
+.button {
+  :global(.iconfont) {
+    font-size: 20px !important;
+  }
+}
+
+.full {
+  flex: 1;
+  width: initial;
+  position: relative;
+  overflow: auto;
+  background: #fff;
+}
+
+.props {
+  flex-shrink: 0;
+  width: 300px;
+  padding: 0.1rem 0;
+  background-color: #f8f8f8;
+  border-left: 1px solid #d9d9d9;
+  overflow-y: auto;
+  position: relative;
+}
+.svg {
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  min-width: 3199px;
+  min-height: 2289px;
+  position: absolute;
+  background-image: none;
+}
+.topology_canvas {
+  overflow: hidden !important;
+}
+
+.tool {
+  :global(.ant-collapse-content-box) {
+    padding: 0;
+  }
+}
+
+.tool {
+  :global(.ant-tabs-nav) {
+    margin: 0;
+  }
+}
+
+.props {
+  :global(.ant-tabs-nav) {
+    margin: 0;
+  }
+}
+
+#editLayout {
+  :global(.ant-btn) {
+    min-width: auto;
+  }
+}
+.resizeSideBar {
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  background: #333333;
+  top: 0;
+  right: 0;
+}
+
+.titleInfo {
+  position: relative;
+  // left: 537px;
+  // top: 1290px;
+}
+
+.titleInfo span {
+  max-width: 20rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: inline-block;
+}

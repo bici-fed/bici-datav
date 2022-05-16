@@ -1,0 +1,19 @@
+{
+  "name": "@bici-datav/store-utils",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "jufeng <jufeng@bicitech.cn>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@bici-datav/editor": "^1.0.0"
+  }
+}
