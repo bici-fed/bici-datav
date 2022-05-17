@@ -1,10 +1,7 @@
-15 error Error: Command failed with exit code 1: git remote update
-15 error fatal: unable to access 'https://github.com/bici-fed/bici-datav.git/': LibreSSL SSL_read: error:02FFF03C:system library:func(4095):Operation timed out, errno 60
-15 error error: Could not fetch origin
-15 error Fetching origin
-15 error     at makeError (/Users/angus/study/bici-datav/node_modules/execa/lib/error.js:60:11)
-15 error     at Function.module.exports.sync (/Users/angus/study/bici-datav/node_modules/execa/index.js:194:17)
-15 error     at Object.execSync (/Users/angus/study/bici-datav/node_modules/@lerna/child-process/index.js:39:16)
-15 error     at updateRemote (/Users/angus/study/bici-datav/node_modules/@lerna/version/lib/is-behind-upstream.js:34:16)
-15 error     at isBehindUpstream (/Users/angus/study/bici-datav/node_modules/@lerna/version/lib/is-behind-upstream.js:16:3)
-15 error     at VersionCommand.initialize (/Users/angus/study/bici-datav/node_modules/@lerna/version/index.js:153:9)
+59 error Error: Command failed with exit code 1: git commit -F /private/var/folders/dc/skdq54kx0y1bfdlc47tjjz840000gn/T/4db37e2f-ba5b-4957-99f5-fb29266b7255/lerna-commit.txt
+59 error On branch master
+59 error nothing to commit, working tree clean
+59 error     at makeError (/Users/angus/study/bici-datav/node_modules/execa/lib/error.js:60:11)
+59 error     at handlePromise (/Users/angus/study/bici-datav/node_modules/execa/index.js:118:26)
+59 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+59 error     at async Promise.all (index 0)
