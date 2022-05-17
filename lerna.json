@@ -1,5 +1,4 @@
 {
-
   "packages": [
     "packages/*",
     "examples/*"
@@ -11,5 +10,9 @@
     "publish": {
       "allowBranch": "master"
     }
+  },
+  "publishConfig": {
+    "access": "public",
+    "directory": "/dist"
   }
 }
