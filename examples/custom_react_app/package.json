@@ -12,7 +12,7 @@
   "dependencies": {
     "@arco-design/web-react": "^2.27.1",
     "@babel/runtime-corejs3": "^7.15.4",
-    "@bici-datav/editor": "^1.0.0",
+    "@bici-topology/editor": "^1.0.0",
     "@types/jest": "^27.0.3",
     "@types/node": "^16.11.11",
     "@types/react": "^17.0.37",

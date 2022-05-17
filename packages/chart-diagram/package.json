@@ -1,5 +1,5 @@
 {
-  "name": "@bici-datav/chart-diagram",
+  "name": "@bici-topology/chart-diagram",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "jufeng <jufeng@bicitech.cn>",
@@ -11,7 +11,7 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@bici-datav/core": "^1.0.0"
+    "@bici-topology/core": "^1.0.0"
   },
   "scripts": {
     "copy": "copyfiles  package.json ../../dist/chart-diagram/",
@@ -19,6 +19,7 @@
     "build:pub": "tsc"
   },
   "dependencies": {
-    "@bici-datav/core": "^1.0.0"
-  }
+    "@bici-topology/core": "^1.0.0"
+  },
+  "gitHead": "f9e0386c4ca9cc9474b452a8cfe2e2a15f07a8d0"
 }

@@ -3,6 +3,6 @@
 ### 安装
 
 ```bash
-yarn add @bici-datav/editor
+yarn add @bici-topology/editor
 ```
-@bici-datav/editor是编辑器主包，其他均为子包，是@bici-datav/editor的依赖
+@bici-topology/editor是编辑器主包，其他均为子包，是@bici-topology/editor的依赖

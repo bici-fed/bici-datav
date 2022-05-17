@@ -1,4 +1,4 @@
-import { registerNode } from '@bici-datav/core';
+import { registerNode } from '@bici-topology/core';
 import { Modal, Tabs, Button, DatePicker, Result, Table } from 'antd';
 import drawReactNode from './drawReactNode';
 import WebPage from "../WebPage";

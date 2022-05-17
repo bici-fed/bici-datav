@@ -1,1 +1,1 @@
-# @bici-datav/class-diagram
+# @bici-topology/class-diagram

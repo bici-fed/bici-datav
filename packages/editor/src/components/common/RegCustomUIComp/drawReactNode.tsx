@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { s8, createDiv, rectangle, createLayerDiv } from '@bici-datav/core';
+import { s8, createDiv, rectangle, createLayerDiv } from '@bici-topology/core';
 
 // 存放原生dom节点
 export const reactNodesData = {};

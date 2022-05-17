@@ -2,7 +2,7 @@ import { EventAction, EventType, TopologyData } from './models';
 import { Pen, PenType } from './models/pen';
 import { Node } from './models/node';
 import { find } from './utils/canvas';
-import {Store} from "@bici-datav/store-utils";
+import {Store} from "@bici-topology/store-utils";
 export class Socket {
   socket: WebSocket;
   fns: any = {};

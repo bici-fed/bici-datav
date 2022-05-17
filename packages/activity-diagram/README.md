@@ -1,1 +1,1 @@
-### @bici-datav/activity-diagram
+### @bici-topology/activity-diagram

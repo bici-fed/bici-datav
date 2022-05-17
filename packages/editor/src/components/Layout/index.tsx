@@ -7,9 +7,9 @@ import React, {
   useRef,
   useState,
 } from "react";
-import {Line, Lock, Options, s8, Topology} from "@bici-datav/core";
-import { echartsObjs, register as registerChart } from "@bici-datav/chart-diagram";
-import { register as registerBiciComp } from "@bici-datav/bici-diagram";
+import {Line, Lock, Options, s8, Topology} from "@bici-topology/core";
+import { echartsObjs, register as registerChart } from "@bici-topology/chart-diagram";
+import { register as registerBiciComp } from "@bici-topology/bici-diagram";
 import { message, Modal, Tabs, Tooltip, ConfigProvider } from "antd";
 import { Tools } from "../config/config";
 import { useClickAway } from "ahooks";

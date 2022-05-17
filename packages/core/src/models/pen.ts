@@ -1,4 +1,4 @@
-import { Store } from '@bici-datav/store-utils';
+import { Store } from '@bici-topology/store-utils';
 
 import { s8 } from '../utils/uuid';
 import { Point } from './point';

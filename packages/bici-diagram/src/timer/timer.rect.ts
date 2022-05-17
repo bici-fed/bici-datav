@@ -1,4 +1,4 @@
-import { Node, Rect } from '@bici-datav/core';
+import { Node, Rect } from '@bici-topology/core';
 
 
 

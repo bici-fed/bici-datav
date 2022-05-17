@@ -1,4 +1,4 @@
-import { registerNode, loadJS } from '@bici-datav/core';
+import { registerNode, loadJS } from '@bici-topology/core';
 import { echarts, echartsObjs } from './echarts';
 
 export function register(_echarts?: any) {

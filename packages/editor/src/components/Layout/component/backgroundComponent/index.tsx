@@ -14,7 +14,7 @@ import {
   InputNumber,
 } from 'antd';
 import { DownOutlined, UploadOutlined } from '@ant-design/icons';
-import { Topology } from '@bici-datav/core';
+import { Topology } from '@bici-topology/core';
 import ColorPicker from '../../../common/ColorPicker/ColorPicker';
 import ReactSwitch from '../../../common/ReactSwitch';
 import { canvas } from '../../index';

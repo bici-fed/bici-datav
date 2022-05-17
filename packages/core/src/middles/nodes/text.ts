@@ -1,6 +1,6 @@
 import { Node } from '../../models/node';
 import { Line } from '../../models/line';
-import {Store} from "@bici-datav/store-utils";
+import {Store} from "@bici-topology/store-utils";
 import {Pen} from "../../models";
 
 // getWords: Get the word array from text. A single Chinese character is a word.

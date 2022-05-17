@@ -1,6 +1,6 @@
 import React, {useCallback, useEffect, useRef, useState} from 'react';
 
-import { EditorLayout, Preview } from '@bici-datav/editor';
+import { EditorLayout, Preview } from '@bici-topology/editor';
 import axios from 'axios';
 import { Route, BrowserRouter } from 'react-router-dom';
 import { Modal } from 'antd';

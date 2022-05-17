@@ -1,4 +1,4 @@
-import { s8, Node, createDiv, rectangle } from '@bici-datav/core';
+import { s8, Node, createDiv, rectangle } from '@bici-topology/core';
 import { reviver } from '../serializing';
 export const echartsObjs: any = {};
 

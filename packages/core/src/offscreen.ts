@@ -1,4 +1,4 @@
-import {Store} from "@bici-datav/store-utils";
+import {Store} from "@bici-topology/store-utils";
 import { Options } from './options';
 import { Canvas } from './canvas';
 import { ActiveLayer } from './activeLayer';

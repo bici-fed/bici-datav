@@ -1,4 +1,4 @@
-import { Store, Observer } from '@bici-datav/store-utils';
+import { Store, Observer } from '@bici-topology/store-utils';
 import { Options } from './options';
 import { Node, images } from './models/node';
 import { TopologyData } from './models/data';

@@ -1,4 +1,4 @@
-import { registerNode } from '@bici-datav/core';
+import { registerNode } from '@bici-topology/core';
 import { activityFinal, activityFinalIconRect, activityFinalTextRect } from './final';
 import { fork, forkHAnchors, forkVAnchors, forkIconRect, forkTextRect } from './fork';
 import { swimlaneH, swimlaneHIconRect, swimlaneHTextRect } from './swimlaneH';

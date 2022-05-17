@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import {Topology, Node, Line, Lock, s8} from '@bici-datav/core';
+import {Topology, Node, Line, Lock, s8} from '@bici-topology/core';
 
 import styles from './index.module.less';
 import { Form, Input, Modal, message } from 'antd';

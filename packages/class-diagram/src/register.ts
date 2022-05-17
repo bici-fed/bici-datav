@@ -1,4 +1,4 @@
-import { registerNode } from '@bici-datav/core';
+import { registerNode } from '@bici-topology/core';
 import {
   simpleClass, simpleClassIconRect, simpleClassTextRect,
   interfaceClass, interfaceClassIconRect, interfaceClassTextRect

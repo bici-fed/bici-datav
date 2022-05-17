@@ -1,11 +1,11 @@
-# `@bici-datav/bici-diagram`
+# `@bici-topology/bici-diagram`
 
 > TODO: description
 
 ## Usage
 
 ```
-const biciDiagram = require('@bici-datav/bici-diagram');
+const biciDiagram = require('@bici-topology/bici-diagram');
 
 // TODO: DEMONSTRATE API
 ```

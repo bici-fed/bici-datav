@@ -1,1 +1,1 @@
-### @bici-datav/core
+### @bici-topology/core

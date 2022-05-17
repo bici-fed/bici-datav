@@ -1,18 +1,18 @@
 import React, {useEffect, useState} from 'react';
 import { ConfigProvider } from 'antd';
-import {Lock, Node, Topology} from '@bici-datav/core';
+import {Lock, Node, Topology} from '@bici-topology/core';
 import { isNumber, getFixed } from '../utils/cacl';
 import { formatTimer } from '../utils/Property2NodeProps';
 import * as _ from 'lodash';
 import {
   echartsObjs,
   register as registerChart,
-} from '@bici-datav/chart-diagram';
+} from '@bici-topology/chart-diagram';
 import {
   register as reactNodesData
 } from '../common/RegCustomUIComp'
 import { replacer, reviver } from '../utils/serializing';
-import { register as registerBiciComp } from '@bici-datav/bici-diagram';
+import { register as registerBiciComp } from '@bici-topology/bici-diagram';
 import moment from "moment";
 import 'antd/dist/antd.less';
 import styles from './index.module.less'

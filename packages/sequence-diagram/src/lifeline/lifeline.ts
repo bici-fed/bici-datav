@@ -1,4 +1,4 @@
-import { Node } from '@bici-datav/core';
+import { Node } from '@bici-topology/core';
 
 export function lifeline(ctx: CanvasRenderingContext2D, node: Node) {
   const height = 50;

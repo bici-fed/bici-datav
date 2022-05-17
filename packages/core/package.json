@@ -1,5 +1,5 @@
 {
-  "name": "@bici-datav/core",
+  "name": "@bici-topology/core",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "jufeng <jufeng@bicitech.cn>",
@@ -11,8 +11,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@bici-datav/editor": "^1.0.0",
-    "@bici-datav/store-utils": "^1.0.0",
+    "@bici-topology/editor": "^1.0.0",
+    "@bici-topology/store-utils": "^1.0.0",
     "mitt": "^2.1.0",
     "mqtt": "^4.3.7"
   },
@@ -20,5 +20,6 @@
     "copy": "copyfiles  package.json ../../dist/core/",
     "build": "tsc && npm run copy",
     "build:pub": "tsc"
-  }
+  },
+  "gitHead": "f9e0386c4ca9cc9474b452a8cfe2e2a15f07a8d0"
 }

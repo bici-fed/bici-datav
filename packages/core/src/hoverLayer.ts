@@ -4,7 +4,7 @@ import { Point } from './models/point';
 import { Line } from './models/line';
 import { Node } from './models/node';
 import { Pen, PenType } from './models/pen';
-import { Store, Observer } from '@bici-datav/store-utils';
+import { Store, Observer } from '@bici-topology/store-utils';
 import { Options } from './options';
 import { Lock } from './models/status';
 import { Layer } from './layer';

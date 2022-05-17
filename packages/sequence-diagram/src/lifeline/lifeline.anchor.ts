@@ -1,4 +1,4 @@
-import { Point, Node, Direction } from '@bici-datav/core';
+import { Point, Node, Direction } from '@bici-topology/core';
 
 export function lifelineAnchors(node: Node) {
   node.anchors.push(new Point(node.rect.x, node.rect.y + 25, Direction.Left));

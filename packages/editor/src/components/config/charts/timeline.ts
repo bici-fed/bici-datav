@@ -1,4 +1,4 @@
-import {Node} from '@bici-datav/core';
+import {Node} from '@bici-topology/core';
 import {defaultLineColors, defaultTimelineShowData} from "../../data/defines";
 import * as _ from 'lodash'
 import moment from 'moment';

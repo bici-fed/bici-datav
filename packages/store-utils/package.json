@@ -1,5 +1,5 @@
 {
-  "name": "@bici-datav/store-utils",
+  "name": "@bici-topology/store-utils",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "jufeng <jufeng@bicitech.cn>",
@@ -14,6 +14,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@bici-datav/core": "^1.0.0"
-  }
+    "@bici-topology/core": "^1.0.0"
+  },
+  "gitHead": "f9e0386c4ca9cc9474b452a8cfe2e2a15f07a8d0"
 }

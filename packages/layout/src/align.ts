@@ -1,4 +1,4 @@
-import { Pen, Node, Rect } from '@bici-datav/core';
+import { Pen, Node, Rect } from '@bici-topology/core';
 
 export function alignNodes(pens: Pen[], rect: Rect, align: string) {
   for (const item of pens) {

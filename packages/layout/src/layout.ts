@@ -1,4 +1,4 @@
-import { Pen, PenType, getRect } from '@bici-datav/core';
+import { Pen, PenType, getRect } from '@bici-topology/core';
 
 import { alignNodes, spaceBetween } from './align';
 

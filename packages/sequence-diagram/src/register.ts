@@ -1,4 +1,4 @@
-import { registerNode } from '@bici-datav/core';
+import { registerNode } from '@bici-topology/core';
 import { lifeline, lifelineAnchors, lifelineIconRect, lifelineTextRect } from './lifeline';
 import { sequenceFocus, sequenceFocusAnchors, sequenceFocusIconRect, sequenceFocusTextRect } from './focus';
 

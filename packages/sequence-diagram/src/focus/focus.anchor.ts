@@ -1,4 +1,4 @@
-import { Point, Node, Direction } from '@bici-datav/core';
+import { Point, Node, Direction } from '@bici-topology/core';
 
 export function sequenceFocusAnchors(node: Node) {
   node.anchors.push(new Point(node.rect.x + node.rect.width / 2, node.rect.y, Direction.Up));

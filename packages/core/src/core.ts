@@ -1,4 +1,4 @@
-import { Store, Observer } from '@bici-datav/store-utils';
+import { Store, Observer } from '@bici-topology/store-utils';
 // https://github.com/developit/mitt
 import { default as mitt, Emitter, EventType, Handler } from 'mitt';
 import { Options, KeyType, KeydownType, DefalutOptions, Padding } from './options';

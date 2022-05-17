@@ -1,4 +1,4 @@
-import type { Topology } from '@bici-datav/core';
+import type { Topology } from '@bici-topology/core';
 import React, { useEffect, useImperativeHandle, useState } from 'react';
 import { History } from 'history';
 import { Button, Menu, Popover, Tag, Space, Tooltip, message } from 'antd';

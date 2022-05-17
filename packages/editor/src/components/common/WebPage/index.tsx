@@ -1,7 +1,7 @@
 import React, {useEffect, useMemo, useState} from "react";
 
 import {Button, Empty} from "antd";
-import { Node } from "@bici-datav/core";
+import { Node } from "@bici-topology/core";
 import { canvas } from '../../Layout/index';
 import { default as mitt, Emitter, EventType, Handler } from 'mitt';
 import  './style.less';

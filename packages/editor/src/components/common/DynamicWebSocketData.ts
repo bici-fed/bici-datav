@@ -1,6 +1,6 @@
 import { canvas } from '../Layout';
 import moment from 'moment';
-import { Node } from '@bici-datav/core';
+import { Node } from '@bici-topology/core';
 
 // 里面的字符可以根据自己的需要进行调整
 moment.locale('zh-cn', {

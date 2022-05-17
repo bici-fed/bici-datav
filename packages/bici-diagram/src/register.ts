@@ -1,4 +1,4 @@
-import { registerNode } from '@bici-datav/core'
+import { registerNode } from '@bici-topology/core'
 import {biciTimer,biciTimerIconRect,biciTimerTextRect} from './timer'
 import {biciVarer,biciVarerIconRect,biciVarerTextRect} from './varer'
 import {simpleCard,simpleCardIconRect,simpleCardTextRect} from './card'

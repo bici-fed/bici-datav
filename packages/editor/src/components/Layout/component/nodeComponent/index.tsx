@@ -33,14 +33,14 @@ import {
 import { FormProps } from 'antd/lib/form/Form';
 import ColorPicker from '../../../common/ColorPicker/ColorPicker';
 import { canvas } from '../../index';
-import { alignNodes } from '@bici-datav/layout/src/align';
+import { alignNodes } from '@bici-topology/layout/src/align';
 import CustomIcon from '../../../config/iconConfig';
 import DataBindModal from '../../../FilterDataPoint';
 
 import styles from './index.module.less';
 import { getNodeType } from '../../../utils/Property2NodeProps';
 import * as _ from 'lodash';
-import { echartsObjs } from '@bici-datav/chart-diagram/src/echarts';
+import { echartsObjs } from '@bici-topology/chart-diagram/src/echarts';
 import {replacer, reviver} from '../../../utils/serializing';
 import { eraseOverlapIntervals } from '../../../utils/cacl';
 import {DataPointPropsMap, defaultLineColors, Node, DATA_STATUS} from '../../../data/defines';

@@ -6,7 +6,7 @@ import { anchorsFns, iconRectFns, textRectFns, drawNodeFns } from '../middles';
 import { defaultAnchors } from '../middles/default.anchor';
 import { defaultIconRect, defaultTextRect } from '../middles/default.rect';
 import { text, iconfont } from '../middles/nodes/text';
-import { Store } from '@bici-datav/store-utils';
+import { Store } from '@bici-topology/store-utils';
 import { abs, distance } from '../utils/math';
 import { s8 } from '../utils/uuid';
 import * as _ from 'lodash';

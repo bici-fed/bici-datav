@@ -1,4 +1,4 @@
-import { Node } from '@bici-datav/core';
+import { Node } from '@bici-topology/core';
 
 export function biciPilot(ctx: CanvasRenderingContext2D, node: Node) {
   ctx.beginPath();
