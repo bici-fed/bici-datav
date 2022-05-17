@@ -15,9 +15,10 @@
   },
   "scripts": {
     "copy": "copyfiles  package.json ../../dist/activity-diagram/",
-    "build": "tsc && npm run copy"
+    "build": "tsc && npm run copy",
+    "build:pub": "tsc"
   },
   "dependencies": {
-    "@bici-datav/editor": "^1.0.0"
+    "@bici-datav/core": "^1.0.0"
   }
 }

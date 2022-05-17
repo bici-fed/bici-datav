@@ -18,6 +18,6 @@
     "build": "tsc && npm run copy"
   },
   "dependencies": {
-    "@bici-datav/editor": "^1.0.0"
+    "@bici-datav/core": "^1.0.0"
   }
 }

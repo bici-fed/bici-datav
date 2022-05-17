@@ -4,11 +4,11 @@ const path = require("path");
 module.exports = {
   mode: "production", // development || production
   // devtool: 'inline-source-map',
-  entry: "./src/index.tsx",
+  entry: "./src/index.ts",
   output: {
     filename: "index.js",
-    path: path.resolve(__dirname, "dist"),
-    library: "biciDatavTopology",
+    path: path.resolve(__dirname, "lib"),
+    library: "datavEditor",
     libraryTarget: "umd",
   },
   module: {

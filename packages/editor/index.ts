@@ -1,1 +1,1 @@
-export { EditorLayout, Preview } from './src/components';
+export { EditorLayout, Preview } from './src';

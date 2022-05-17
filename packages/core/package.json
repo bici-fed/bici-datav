@@ -18,6 +18,7 @@
   },
   "scripts": {
     "copy": "copyfiles  package.json ../../dist/core/",
-    "build": "tsc && npm run copy"
+    "build": "tsc && npm run copy",
+    "build:pub": "tsc"
   }
 }
