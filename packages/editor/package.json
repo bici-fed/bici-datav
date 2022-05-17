@@ -15,10 +15,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "peerDependencies": {
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
-    "@babel/preset-react": "^7.12.10",
+  "dependencies": {
     "@bici-datav/activity-diagram": "^1.0.0",
     "@bici-datav/bici-diagram": "^1.0.0",
     "@bici-datav/chart-diagram": "^1.0.0",
@@ -27,7 +24,12 @@
     "@bici-datav/flow-diagram": "^1.0.0",
     "@bici-datav/layout": "^1.0.0",
     "@bici-datav/sequence-diagram": "^1.0.0",
-    "@bici-datav/store-utils": "^1.0.0",
+    "@bici-datav/store-utils": "^1.0.0"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
     "@stomp/stompjs": "^6.0.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
