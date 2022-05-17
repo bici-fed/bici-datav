@@ -1,7 +1,0 @@
-59 error Error: Command failed with exit code 1: git commit -F /private/var/folders/dc/skdq54kx0y1bfdlc47tjjz840000gn/T/4db37e2f-ba5b-4957-99f5-fb29266b7255/lerna-commit.txt
-59 error On branch master
-59 error nothing to commit, working tree clean
-59 error     at makeError (/Users/angus/study/bici-datav/node_modules/execa/lib/error.js:60:11)
-59 error     at handlePromise (/Users/angus/study/bici-datav/node_modules/execa/index.js:118:26)
-59 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
-59 error     at async Promise.all (index 0)
