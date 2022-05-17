@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "version": "1.0.0",
-  "workspaces": ["packages/*"],
+  "workspaces": ["packages/*","examples/*"],
   "scripts": {
     "start": "",
     "build": "yarn workspaces run build",
@@ -11,6 +11,8 @@
   },
   "devDependencies": {
     "lerna": "^4.0.0",
-    "copyfiles": "latest"
+    "copyfiles": "latest",
+    "ts-loader": "^8.0.14",
+    "typescript": "^4.6.3"
   }
 }
