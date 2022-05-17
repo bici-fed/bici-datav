@@ -9,8 +9,8 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "copy": "copyfiles  package.json ../../dist/editor/",
-    "build": "webpack --config=webpack.config && npm run copy",
-    "build:pub": "webpack"
+    "build": "webpack --config=webpack.config",
+    "build:pub": "babel src -d dist"
   },
   "publishConfig": {
     "access": "public"

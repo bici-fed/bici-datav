@@ -139,9 +139,9 @@ const EditorLayoutCanvas: React.FC<any> = ({ ...props }) => {
       mappingId: 'ooip6ffe388d487db754b885b8aa65b9',
       token: token,
       list:{
-        url:"/applications/service/remote/custom/component/industryList"
+        url:"/file/service/file/getMappingFile"
       },
-      projectIndustryCats:[]
+      projectIndustryCats:industry_List
     }
   };
 

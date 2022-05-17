@@ -16,11 +16,12 @@ const IndustryList=(props:IndustryListProps)=>{
         clientParam(uploaConfig.industry.baseURL)
             .request({
                 url:uploaConfig.industry.list.url,
-                data:{
+                params:{
                     mappingId: uploaConfig.industry.mappingId,
                     mappingType: mappingType,
+                    getPdf: false,
                 },
-                method:'post',
+                method:'get',
                 headers: {
                     token: uploaConfig.industry.token,
                     'Content-Type': 'application/json',
