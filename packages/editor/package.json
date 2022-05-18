@@ -1,6 +1,6 @@
 {
   "name": "@bici-topology/editor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "> TODO: description",
   "author": "jufeng <jufeng@bicitech.cn>",
   "homepage": "",
@@ -20,15 +20,15 @@
     "@types/react-dom": "17.0.14"
   },
   "dependencies": {
-    "@bici-topology/activity-diagram": "^1.0.1",
-    "@bici-topology/bici-diagram": "^1.0.1",
-    "@bici-topology/chart-diagram": "^1.0.1",
-    "@bici-topology/class-diagram": "^1.0.1",
-    "@bici-topology/core": "^1.0.2",
-    "@bici-topology/flow-diagram": "^1.0.1",
-    "@bici-topology/layout": "^1.0.1",
-    "@bici-topology/sequence-diagram": "^1.0.1",
-    "@bici-topology/store-utils": "^1.0.1"
+    "@bici-topology/activity-diagram": "^1.0.2",
+    "@bici-topology/bici-diagram": "^1.0.2",
+    "@bici-topology/chart-diagram": "^1.0.2",
+    "@bici-topology/class-diagram": "^1.0.2",
+    "@bici-topology/core": "^1.0.3",
+    "@bici-topology/flow-diagram": "^1.0.2",
+    "@bici-topology/layout": "^1.0.2",
+    "@bici-topology/sequence-diagram": "^1.0.2",
+    "@bici-topology/store-utils": "^1.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
