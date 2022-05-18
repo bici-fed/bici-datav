@@ -7,6 +7,7 @@ export function register(_echarts?: any) {
     loadJS(
       'https://cdn.bootcdn.net/ajax/libs/echarts/5.0.2/echarts.min.js', null, true
     );
+    
     // loadJS(
     //     './echarts.min.js', null, true
     // );

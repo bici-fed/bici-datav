@@ -22,6 +22,7 @@ import {simpleText, simpleTextIconRect, simpleTextTextRect} from "./text";
 // );
 
 export function register() {
+
   registerNode("biciTimer",biciTimer,null,biciTimerIconRect,biciTimerTextRect,true)
   registerNode("biciVarer",biciVarer,null,biciVarerIconRect,biciVarerTextRect,true)
   registerNode("biciCard",simpleCard,null,simpleCardIconRect,simpleCardTextRect,true)
@@ -29,4 +30,5 @@ export function register() {
   registerNode("biciPilot",biciPilot,null,biciPilotIconRect,biciPilotTextRect,true)
   registerNode("biciMeasure",biciMeasure,null,biciMeasureIconRect,biciMeasureTextRect,true)
   registerNode("biciText",simpleText,null,simpleTextIconRect,simpleTextTextRect,true)
+  
 }

@@ -1,0 +1,10 @@
+14 error Error: Command failed with exit code 1: git remote update
+14 error fatal: unable to access 'https://github.com/bici-fed/bici-datav.git/': LibreSSL SSL_read: error:02FFF03C:system library:func(4095):Operation timed out, errno 60
+14 error error: Could not fetch origin
+14 error Fetching origin
+14 error     at makeError (/Users/angus/study/bici-datav/node_modules/execa/lib/error.js:60:11)
+14 error     at Function.module.exports.sync (/Users/angus/study/bici-datav/node_modules/execa/index.js:194:17)
+14 error     at Object.execSync (/Users/angus/study/bici-datav/node_modules/@lerna/child-process/index.js:39:16)
+14 error     at updateRemote (/Users/angus/study/bici-datav/node_modules/@lerna/version/lib/is-behind-upstream.js:34:16)
+14 error     at isBehindUpstream (/Users/angus/study/bici-datav/node_modules/@lerna/version/lib/is-behind-upstream.js:16:3)
+14 error     at VersionCommand.initialize (/Users/angus/study/bici-datav/node_modules/@lerna/version/index.js:153:9)

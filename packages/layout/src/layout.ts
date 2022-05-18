@@ -12,7 +12,6 @@ export function layout(pens: Pen[], params: {
 }) {
   const spaceWidth = params.spaceWidth || 30;
   const spaceHeight = params.spaceHeight || 30;
-
   const rect = getRect(pens);
   let left = rect.x;
   let top = rect.y;
