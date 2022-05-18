@@ -1,6 +1,6 @@
 {
   "name": "@bici-topology/core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "> TODO: description",
   "author": "jufeng <jufeng@bicitech.cn>",
   "homepage": "",
@@ -11,7 +11,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@bici-topology/editor": "^1.0.1",
+    "@bici-topology/editor": "^1.0.2",
     "@bici-topology/store-utils": "^1.0.1",
     "mitt": "^2.1.0",
     "mqtt": "^4.3.7"
