@@ -10,7 +10,7 @@ import React, {
 import {Line, Lock, Options, s8, Topology} from "@bici-topology/core";
 import { echartsObjs, register as registerChart } from "@bici-topology/chart-diagram";
 import { register as registerBiciComp } from "@bici-topology/bici-diagram";
-import { message, Modal, Tabs, Tooltip, ConfigProvider } from "antd";
+import { Tabs, Tooltip, ConfigProvider } from "antd";
 import { Tools } from "../config/config";
 import { useClickAway } from "ahooks";
 import { replacer, reviver } from "../utils/serializing";
