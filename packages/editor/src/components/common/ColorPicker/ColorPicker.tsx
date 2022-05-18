@@ -86,8 +86,8 @@ const ColorPicker: React.FC<ColorPickerProps> = (props: ColorPickerProps) => {
         <div style={styles.color} />
       </div>
       {visible ? (
-        <div style={styles.popover} className={styleScss.colorPickerContainer}>
-          <div style={styles.cover} onClick={handleClose} />
+        <div style={styles.popover as any} className={styleScss.colorPickerContainer}>
+          <div style={styles.cover as any} onClick={handleClose} />
           <SketchPicker
             className={styleScss.myColorPicker}
             color={color}

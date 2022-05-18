@@ -16,10 +16,8 @@
     "useDefineForClassFields": true,
     "decoratorsBeforeExport": false,
     "isolateGlobalState": true,
-    "paths": {
-      "@/**": ["./src/**"],
-    }
+    "skipLibCheck": true
   },
   "include": ["packages/**/*"],
-  "exclude": ["node_modules", "dist", "**/*.spec.ts"]
+  "exclude": ["node_modules", "dist", "**/*.spec.ts", "../../node_modules"]
 }

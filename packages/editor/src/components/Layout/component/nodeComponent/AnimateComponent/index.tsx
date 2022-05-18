@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Node } from '../@bici-topology/core';
+import { Node } from '@bici-topology/core';
 import { Form, Col, Input, Collapse, Switch, Select } from 'antd';
 import { canvas } from '../../../index';
 import { useEffect } from 'react';

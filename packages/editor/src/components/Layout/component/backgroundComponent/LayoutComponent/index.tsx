@@ -1,6 +1,6 @@
 import React from 'react';
 import { Form, Row, Col, InputNumber, Button } from 'antd';
-import { layout } from '../../../../..//topology/layout';
+import { layout } from '@bici-topology/layout';
 import { canvas } from '../../../index';
 const formLayout = {
   labelCol: { span: 8 },

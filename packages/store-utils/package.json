@@ -5,16 +5,14 @@
   "author": "jufeng <jufeng@bicitech.cn>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "dependencies": {
-    "@bici-topology/core": "^1.0.0"
+    "copy": "copyfiles  package.json ../../dist/store-utils/",
+    "build": "tsc && npm run copy"
   },
   "gitHead": "f9e0386c4ca9cc9474b452a8cfe2e2a15f07a8d0",
   "devDependencies": {

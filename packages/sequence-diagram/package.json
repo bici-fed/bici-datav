@@ -5,8 +5,8 @@
   "author": "jufeng <jufeng@bicitech.cn>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "publishConfig": {
     "access": "public"
   },

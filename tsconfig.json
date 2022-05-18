@@ -7,13 +7,15 @@
     "outDir": "./dist",
     "sourceMap": true,
     "declaration": true,
-    "module": "esnext",
+    "module": "commonjs",
     "moduleResolution": "node",
     "target": "es5",
     "allowJs": true,
     "lib": ["es2018", "dom"],
+    "jsx": "react",
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports":true,
+    "skipLibCheck": true,
     "paths": {
       "@bici-topology/core": ["packages/core"],
       "@bici-topology/core/*": ["packages/core/src/*"],
@@ -26,6 +28,7 @@
       "@bici-topology/editor": ["packages/editor"]
     }
   },
-  "include": ["packages/**/*"],
-  "exclude": ["node_modules", "dist", "**/*.spec.ts", "**/*.d.ts"]
+  "typings": "./typings/index.d.ts",
+  "include": ["packages/**/*", "typings.d.ts", "./typings/"],
+  "exclude": ["node_modules", "lib", "es", "dist", "examples"]
 }

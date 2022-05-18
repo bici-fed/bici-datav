@@ -125,7 +125,7 @@ const Table = (props:TableProps)=>{
             <div className="inner-container" ref={scrollRef}>
               {
                 data?.length>0?(
-                <table style={styles.table} className="element">
+                <table style={styles.table as any} className="element">
                   <tbody {...getTableBodyProps()}>
                     {rows.map(row => {
                       prepareRow(row)

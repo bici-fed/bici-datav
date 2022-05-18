@@ -2,12 +2,15 @@
   "name": "root",
   "private": true,
   "version": "1.0.0",
-  "workspaces": ["packages/*","examples/*"],
+  "workspaces": ["packages/*"],
   "scripts": {
     "start": "",
     "build": "yarn workspaces run build",
     "v": "lerna publish --skip-npm",
     "docs": "typedoc --out ./docs --target es6 --theme minimal --mode file packages"
+  },
+  "engines": {
+    "node": ">=10"
   },
   "devDependencies": {
     "lerna": "^4.0.0",

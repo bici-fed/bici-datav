@@ -16,7 +16,7 @@ import VideoMonitoringModal from './VideoMonitoring'
 
 
 const { confirm } = Modal;
-const token = 'BrCIkjCueMO8bOtemZWDM';
+const token = 'XBZ9EE68OJ3A9j8YOx3aF';
 
 const testId = '3169f6dae49e4490bf7decab5c76eb8c';
 

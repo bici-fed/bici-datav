@@ -1,4 +1,5 @@
 const path = require("path");
+const CopyPlugin = require("copy-webpack-plugin");
 
 
 module.exports = {
@@ -28,7 +29,7 @@ module.exports = {
             options: {
               lessOptions: {
                 modifyVars: {
-                  "@ant-prefix": "antdv4",
+                  "@ant-prefix": "v-editor",
                 },
                 javascriptEnabled: true,
               },
@@ -72,11 +73,15 @@ module.exports = {
       },
     ],
   },
-  plugins: [],
+  plugins: [
+    new CopyPlugin({
+      patterns: [
+        { from: "source", to: "dest" },
+        { from: "other", to: "public" },
+      ],
+    }),
+  ],
   resolve: {
-    alias: {
-      components: path.resolve(__dirname, 'src/components'),
-    },
     extensions: ['.js', '.jsx','.ts', '.tsx'],
   },
   externals: ["react", "react-dom", "lodash", "bici-transformers", "axios","antd"],

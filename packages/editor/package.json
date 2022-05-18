@@ -5,15 +5,19 @@
   "author": "jufeng <jufeng@bicitech.cn>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "copy": "copyfiles  package.json ../../dist/editor/",
-    "build": "webpack --config=webpack.config",
-    "build:pub": "babel src -d dist"
+    "build:old": "webpack --config=webpack.config.js",
+    "build": "tsc && npm run copy"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "resolutions": {
+    "@types/react": "17.0.14",
+    "@types/react-dom": "17.0.14"
   },
   "dependencies": {
     "@bici-topology/activity-diagram": "^1.0.0",
@@ -26,7 +30,7 @@
     "@bici-topology/sequence-diagram": "^1.0.0",
     "@bici-topology/store-utils": "^1.0.0"
   },
-  "peerDependencies": {
+  "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
@@ -37,8 +41,8 @@
     "@types/jest": "^25.1.4",
     "@types/lodash": "^4.14.165",
     "@types/node": "^12.12.38",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.14",
     "@types/react-router-dom": "^5.1.6",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
     "@typescript-eslint/parser": "^2.26.0",
@@ -51,6 +55,8 @@
     "bici-transformers": "^0.19.7",
     "cash-dom": "^8.1.0",
     "classnames": "^2.2.6",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.4",
     "cross-env": "^7.0.2",
     "css-loader": "^5.0.1",
     "echarts": "^5.2.1",
@@ -67,15 +73,19 @@
     "file-saver": "^2.0.2",
     "flv.js": "^1.5.0",
     "gh-pages": "^2.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "html2canvas": "^1.0.0-rc.7",
     "jsencrypt": "3.0.0-rc.1",
     "less": "^3.13.1",
     "less-loader": "^7.2.1",
     "lodash": "^4.17.20",
     "microbundle-crl": "^0.13.10",
+    "mini-css-extract-plugin": "^2.6.0",
     "mitt": "^2.1.0",
     "npm-run-all": "^4.1.5",
     "nrm": "^1.2.1",
+    "postcss": "^8.4.13",
+    "postcss-loader": "^6.2.1",
     "prettier": "^2.0.4",
     "react": "^17.0.2",
     "react-color": "^2.19.3",
@@ -91,10 +101,9 @@
     "reactcss": "^1.2.3",
     "sockjs-client": "^1.5.0",
     "style-loader": "^2.0.0",
-    "webpack": "^5.11.1"
-  },
-  "devDependencies": {
-    "webpack-cli": "^4.9.2"
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-merge": "^5.8.0"
   },
   "gitHead": "f9e0386c4ca9cc9474b452a8cfe2e2a15f07a8d0"
 }
