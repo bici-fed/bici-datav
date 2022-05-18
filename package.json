@@ -3,6 +3,9 @@
   "private": true,
   "version": "1.0.0",
   "workspaces": ["packages/*"],
+  "repository": {
+    "url": "https://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@github.com/bici-fed/bici-datav.git"
+  },
   "scripts": {
     "start": "",
     "build": "yarn workspaces run build",
